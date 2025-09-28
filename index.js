@@ -4,7 +4,7 @@ const layoutContainer = document.getElementById("playerLayout");
 let currentchat = "chat1"
 let team1 = "?tw=LtuRepublic&tw=knok1zygis"
 let team2 = "?yt=id:jqfuGOz4pjs:name:Šerifas&yt=id:aojcjgQSOiE:name:Aistelio&yt=id:1_dK_tOkit8:name:Eastern European"
-team = team1
+let team = team1
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const teamvar = params.get('team');
