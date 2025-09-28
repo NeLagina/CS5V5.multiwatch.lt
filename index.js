@@ -7,7 +7,7 @@ let team2 = "?yt=id:jqfuGOz4pjs:name:Šerifas&yt=id:aojcjgQSOiE:name:Aistelio&yt
 let team = team1
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const teamvar = params.get('team');
+const teamvar = urlParams.get('team');
 if (teamvar == "karolis") {
     team = team1
     
